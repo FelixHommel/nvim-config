@@ -9,15 +9,15 @@
 ## Installed Plugins
 
 * Telescope
- ⋅⋅* Telescope Tabs
- ⋅⋅* Telescope UI Select
+    * Telescope Tabs
+    * Telescope UI Select
 
 * Colorschemes
- ⋅⋅* Monokai-Pro
- ⋅⋅* gruvbox-material (selected)
+    * Monokai-Pro
+    * gruvbox-material (selected)
 
 * Treesitter
- ⋅⋅* Treesitter-playground
+    * Treesitter-playground
 
 * Harpoon
 
@@ -26,20 +26,20 @@
 * Fugitive
 
 * LSP
- ⋅⋅* mason
- ⋅⋅* mason-lspconfig
- ⋅⋅* nvim-lspconfig
+    * mason
+    * mason-lspconfig
+    * nvim-lspconfig
 
 * CMP
- ⋅⋅* cmp-nvim-lsp
- ⋅⋅* cmp-vsnip
- ⋅⋅* vim-vsnip
- ⋅⋅* lspkind
+    * cmp-nvim-lsp
+    * * cmp-vsnip
+    * vim-vsnip
+    * lspkind
 
 * Java
- ⋅⋅* jdtls
- ⋅⋅* nvim-dap
- ⋅⋅* cmp-dap
+    * jdtls
+    * nvim-dap
+    * cmp-dap
 
 * Trouble
 
@@ -48,8 +48,8 @@
 * lualine
 
 * Icons
- ⋅⋅* gitsigns
- ⋅⋅* nvim-web-devicons
+    * gitsigns
+    * nvim-web-devicons
 
 * Tabby
 
