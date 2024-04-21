@@ -8,54 +8,54 @@
 
 ## Installed Plugins
 
-- Telescope
+* Telescope
 ..* Telescope Tabs
 ..* Telescope UI Select
 
-- Colorschemes
+* Colorschemes
 ..* Monokai-Pro
 ..* gruvbox-material (selected)
 
-- Treesitter
+* Treesitter
 ..* Treesitter-playground
 
-- Harpoon
+* Harpoon
 
-- Undotree
+* Undotree
 
-- Fugitive
+* Fugitive
 
-- LSP
+* LSP
 ..* mason
 ..* mason-lspconfig
 ..* nvim-lspconfig
 
-- CMP
+* CMP
 ..* cmp-nvim-lsp
 ..* cmp-vsnip
 ..* vim-vsnip
 ..* lspkind
 
-- Java
+* Java
 ..* jdtls
 ..* nvim-dap
 ..* cmp-dap
 
-- Trouble
+* Trouble
 
-- Smartcolumn
+* Smartcolumn
 
-- lualine
+* lualine
 
-- Icons
+* Icons
 ..* gitsigns
 ..* nvim-web-devicons
 
-- Tabby
+* Tabby
 
-- stcursorword
+* stcursorword
 
-- toggleterm
+* toggleterm
 
-- indent-blankline
+* indent-blankline
 
