@@ -32,7 +32,7 @@
 
 * CMP
     * cmp-nvim-lsp
-    * * cmp-vsnip
+    * cmp-vsnip
     * vim-vsnip
     * lspkind
 
