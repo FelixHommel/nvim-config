@@ -6,10 +6,10 @@ vim.keymap.set("n", "<leader>pv", vim.cmd.Ex)
 --Tabs
 which_key.add({
     { "<leader>t", group = "Tabs" },
-    { "<leader>tN", vim.cmd.tabnew, desc = "Open a new buffer" },
-    { "<leader>tC", vim.cmd.tabclose, desc = "Close current tab" },
-    { "<leader>tn", "<cmd>BufferLineCycleNext<cr>", desc = "Goto next tab" },
-    { "<leader>tp", "<cmd>BufferLineCyclePrev<cr>", desc = "Goto prev tab" },
+    { "<leader>tn", vim.cmd.tabnew, desc = "Open a new buffer" },
+    { "<leader>tc", vim.cmd.tabclose, desc = "Close current tab" },
+    { "<leader>tl", "<cmd>BufferLineCycleNext<cr>", desc = "Goto next tab" },
+    { "<leader>th", "<cmd>BufferLineCyclePrev<cr>", desc = "Goto prev tab" },
     { "<leader>ut", "<cmd>UndotreeToggle<cr>", desc = "Toggle Undotree" },
 })
 
@@ -18,6 +18,9 @@ which_key.add({
     { "<leader>w", group = "Window" },
     { "<leader>wl", "<C-w>l", desc = "Switch to the window to the right" },
     { "<leader>wh", "<C-w>h", desc = "Switch to the window to the left" },
+    { "<leader>wj", "<C-w>j", desc = "Switch to the window to the bottom" },
+    { "<leader>wk", "<C-w>k", desc = "Switch to the window to the top" },
+    { "<leader>tt", "<cmd>ToggleTerm<cr>", desc = "Open a Terminal" },
 })
 
 --File operations

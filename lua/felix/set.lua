@@ -1,5 +1,5 @@
 --colors
-vim.cmd.colorscheme("monokai-pro")
+vim.cmd.colorscheme("tokyonight")
 vim.opt.termguicolors = true
 
 --clipboard
