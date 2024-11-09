@@ -55,7 +55,18 @@ return {
                     })
                 end,
                 clangd = function()
-                    require("lspconfig").clangd.setup({})
+                    require("lspconfig").clangd.setup({
+                        on_attach = function(client, bufnr)
+                            vim.api.nvim_buf_set_option(bufnr, "formatexpr", "v:lua.vim.lsp.formatexpr()")
+                            vim.api.nvim_buf_set_keymap(bufnr, "n", "<leader>cf", "<cmd>lua vim.lsp.buf.format({ async = true })<cr>", { noremap = true, silent = true })
+                        end,
+                        settings = {
+                            clangd = {
+                                fallbackFlags = { "--style=file" }
+                            }
+                        },
+                        cmd = { "clangd", "--clang-tidy", "--compile-commands-dir=build" },
+                    })
                 end,
                 cmake = function()
                     require("lspconfig").cmake.setup({})

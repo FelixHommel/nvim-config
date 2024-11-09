@@ -25,7 +25,7 @@ vim.opt.incsearch = true
 
 --FAST
 vim.opt.updatetime = 50
-vim.opt.colorcolumn = "80"
+vim.opt.colorcolumn = "100"
 
 --Required for undotree support
 vim.o.undofile = true
