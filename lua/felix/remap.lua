@@ -62,3 +62,11 @@ vim.api.nvim_create_autocmd('LspAttach', {
         }, { buffer = buf })
     end,
 })
+
+--Code Fold
+which_key.add({
+    { "f", group = "Fold" },
+    { "fC", require("ufo").openAllFolds, desc = "Open folded code", mode = "n" },
+    { "fc", require("ufo").closeAllFolds, desc = "Fold all code", mode = "n" },
+    { "fw", "za", desc = "Fold current block", mode = "n" },
+})

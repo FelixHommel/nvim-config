@@ -29,3 +29,10 @@ vim.opt.colorcolumn = "100"
 
 --Required for undotree support
 vim.o.undofile = true
+
+--Code folding
+vim.o.foldcolumn = "1"
+vim.o.foldlevel = 1
+vim.o.foldlevelstart = 99
+vim.o.foldclose = "all"
+vim.o.foldenable = true
