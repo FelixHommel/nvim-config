@@ -48,6 +48,7 @@ vim.api.nvim_create_autocmd('LspAttach', {
         which_key.add({
             { "g",          group = "Goto" },
             { "gd",         vim.lsp.buf.definition,       desc = "Goto definition",        mode = "n" },
+            { "gb",         "<C-o>",                      desc = "Go back to prev position", mode = "n" },
             { "gl",         vim.diagnostic.open_float,    desc = "Open diagnostics float", mode = "n" },
             { "<leader>K",  vim.lsp.buf.hover,            desc = "Show hover info",        mode = "n" },
             { "<leader>l",  group = "LSP" },
