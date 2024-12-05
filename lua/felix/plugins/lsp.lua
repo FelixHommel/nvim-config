@@ -65,7 +65,7 @@ return {
                                 fallbackFlags = { "--style=file" }
                             }
                         },
-                        cmd = { "clangd", "--clang-tidy", "--compile-commands-dir=build" },
+                        cmd = { "clangd", "--clang-tidy" },
                     })
                 end,
                 cmake = function()

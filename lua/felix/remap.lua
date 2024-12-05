@@ -64,6 +64,13 @@ vim.api.nvim_create_autocmd('LspAttach', {
     end,
 })
 
+--DAP
+which_key.add({
+    { "d", group = "Debug" },
+    { "<leader>db", "<cmd>DapToggleBreakpoint<cr>", desc = "Toggle Breakpoint at current line", mode = "n" },
+    { "<leader>dr", "<cmd>DapContinue<cr>", desc = "Start or continue debugger", mode = "n" },
+})
+
 --Code Fold
 which_key.add({
     { "f", group = "Fold" },
