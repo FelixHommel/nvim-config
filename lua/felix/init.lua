@@ -4,4 +4,3 @@ vim.g.mapleader = " "
 require("felix.lazy")
 require("felix.set")
 require("felix.remap")
-

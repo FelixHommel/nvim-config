@@ -1,5 +1,10 @@
---Tokyonight
+--Nightfox
 return {
+    "EdenEast/nightfox.nvim"
+}
+
+--Tokyonight
+--[[ return {
     "folke/tokyonight.nvim",
     config = function()
         require("tokyonight").setup({
@@ -14,7 +19,7 @@ return {
             cache = true,
         })
     end
-}
+} ]]
 
 --Monokai
 --[[ return {

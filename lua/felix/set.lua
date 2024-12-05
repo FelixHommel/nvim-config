@@ -1,5 +1,5 @@
 --colors
-vim.cmd.colorscheme("tokyonight")
+vim.cmd.colorscheme("duskfox")
 vim.opt.termguicolors = true
 
 --clipboard
